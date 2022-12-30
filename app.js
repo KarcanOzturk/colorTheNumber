@@ -17,7 +17,7 @@ function randomColor() {
   const randomNumber = Math.floor(Math.random() * 100)
   const element = document.querySelector(`.sayi${randomNumber}`)
 
-  element.style.color = "blue"
+  element.style.color = "red"
 }
 
 removeColors.addEventListener("click", () => {
